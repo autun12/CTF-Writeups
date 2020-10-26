@@ -1,0 +1,8 @@
+compile c++ object file
+g++ -c -fPIC -I/usr/lib/jvm/java-14-openjdk/include -I/usr/lib/jvm/java-14-openjdk/include/linux Decode.cpp -o Decode.o
+
+compile bridge
+g++ -shared -fPIC -o libnative.so Decode.o -lc
+
+run program with
+java -cp . -Djava.library.path=. Decode
