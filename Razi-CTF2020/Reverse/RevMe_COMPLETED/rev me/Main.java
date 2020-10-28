@@ -15,15 +15,8 @@ public class Main {
             System.out.println("here is the flag take it :)");
         }
         else {
-            System.out.println("wired string: " + OurWiredFlag);
-            String encoded = encode(mess(YourFlag));
-            System.out.println("messy string: " + encoded);
-        //     // System.out.println("clean string: " + mess(OurWiredFlag));
-        //     String cleanFlag = decode(OurWiredFlag);
-        //     System.out.println("flags string: " + cleanFlag);
-        //     String clean = decode(encoded);
-        //     System.out.println("clean string: " + clean);
-            System.out.println("Try more you can do it!");
+            System.out.println("clean string: " + decode(OurWiredFlag));
+        	System.out.println("Try more you can do it!");
         }
         scan.close();
     }
@@ -49,7 +42,7 @@ public class Main {
                 }
                 i++;
             } catch (Exception e) {
-                return Arrays.toString(userInputArr);
+                return String.valueOf(userInputArr);
             }
         }
     }
@@ -102,17 +95,30 @@ public class Main {
     }
 
     public static String decode(String userInput) {
-        /*I really wanted to decode this thing but i really didn't feel like it :D */
         StringBuilder decodedString = new StringBuilder();
+        StringBuilder numString = new StringBuilder();
+        String str = null;
+        Integer t = null;
         for(int i = 0; i < userInput.toCharArray().length; i++) {
             if(CHECK(userInput.charAt(i))) {
                 char ch = userInput.charAt(i);
-                decodedString.append(String.valueOf(ch));    
-            }
-            decodedString.append((char)((userInput.charAt(i))/95));
-        }
+                numString.append(String.valueOf(ch));
+                if(numString.length() == 5) {
+                    str = numString.toString();
+                    t = Integer.valueOf(str);
+                    numString.append((char)(t / 1337));
+                    decodedString.append(String.valueOf(numString.substring(numString.length() - 1)));
+                    numString.setLength(0);
+                }
+			}
 
-        return decodedString.toString();
+			decodedString.append((char)((userInput.charAt(i))/95));
+		}
+		
+		decodedString.append("9");
+        String replaceChar = decodedString.toString();
+        String flag = replaceChar.replace("Z", "").replace('^', '_').replace("*","").replace(".", "0").replace("\\","");
+        return flag;
     }
     
     public static String encode(String userInput){

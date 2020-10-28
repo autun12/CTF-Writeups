@@ -1,6 +1,6 @@
 public class Test {
 	public static void main(String[] args) {
-        char c = '࿤';
+        char c = '⑚';
         int ascii = c;  
         System.out.println("The ASCII value of " + c + " is: " + ascii); 
     }
@@ -36,7 +36,7 @@ public class Test {
                 decodedString.append(String.valueOf(ch));    
             }
             if(userInput.charAt(i) == '↳') {
-                decodedString.append((char)(userInput.charAt(i))/94);
+                decodedString.append((char)(userInput.charAt(i))/93);
             }
             decodedString.append((char)((userInput.charAt(i))/95));
         }

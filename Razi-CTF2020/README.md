@@ -2,7 +2,8 @@
 
 ## Android Challenges
 
-[Android](Android/chasing_a_lock_COMPLETED/README.md)
+[Chasing A lock](Android/chasing_a_lock_COMPLETED/README.md)
 
 ## Reversing Challenges
 
+[Rev me](Reverse/RevMe_COMPLETED/README.md)
