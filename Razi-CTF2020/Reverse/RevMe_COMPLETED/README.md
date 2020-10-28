@@ -6,7 +6,29 @@ FLAG = RaziCTF{G00d_J0b_h4v3_Fun_r3v1n9}
 
 This challenge is a Reverse Engineering challenge. It was one of the many Reverse Engineering challenges during the Razi 2020 CTF. 
 
-We are given a zip file that contains a java class called `Main`. Main takes your input then encodes it and messes it up then compares it to `OurWiredFlag`. If they are equal then it prints out `RaziCTF{`YourInput`}`. If they aren't equal it prints out `Try more you can do it!`.
+We are given a zip file that contains a java class called `Main`. 
+
+## Main Function
+
+```java
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Enter Flag: ");
+    String YourFlag = scan.nextLine();
+    String OurWiredFlag="↳᨟࿤୘ᅨ࿤୘ᅨ࿤୘├࿤୘⌷࿤୘ᭂ࿤୘ᅨ࿤୘⑚࿤୘⌷࿤୘⚠࿤୘69524࿤୘⯮࿤୘68187࿤୘⌷࿤୘ᦾ࿤୘⮍࿤୘⣦࿤୘⌷࿤୘⩪࿤୘68187࿤୘⯮࿤୘65513࿤୘⣦࿤୘76209≵";
+    if(encode(mess(YourFlag)).equals(OurWiredFlag)){
+        System.out.println("RaziCTF{"+YourFlag+"}");
+        System.out.println("here is the flag take it :)");
+    }
+    else {
+        System.out.println("clean string: " + decode(OurWiredFlag));
+        System.out.println("Try more you can do it!");
+    }
+    scan.close();
+}
+```
+
+Main takes your input then encodes it and messes it up then compares it to `OurWiredFlag`. If they are equal then it prints out `RaziCTF{`YourInput`}`. If they aren't equal it prints out `Try more you can do it!`.
 
 ## Encode Function
 ```Java
