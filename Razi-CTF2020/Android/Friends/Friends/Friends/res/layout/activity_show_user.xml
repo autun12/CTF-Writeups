@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/user_img" android:layout_width="fill_parent" android:layout_height="400.0dip" android:scaleType="fitXY" android:contentDescription="@string/user" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name: " android:layout_weight="0.5" />
+                <TextView android:textSize="20.0sp" android:textStyle="normal" android:gravity="right" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name family " android:layout_weight="1.5" />
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Address: " android:layout_weight="0.5" />
+                <TextView android:textSize="20.0sp" android:textStyle="normal" android:gravity="right" android:id="@id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name family " android:layout_weight="1.5" />
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email: " android:layout_weight="0.5" />
+                <TextView android:textSize="20.0sp" android:textStyle="normal" android:gravity="right" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name family " android:lines="1" android:layout_weight="1.5" />
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Age: " android:layout_weight="0.5" />
+                <TextView android:textSize="20.0sp" android:textStyle="normal" android:gravity="right" android:id="@id/age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name family " android:layout_weight="1.5" />
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:weightSum="2.0">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender: " android:layout_weight="0.5" />
+                <TextView android:textSize="20.0sp" android:textStyle="normal" android:gravity="right" android:id="@id/gender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name family " android:layout_weight="1.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

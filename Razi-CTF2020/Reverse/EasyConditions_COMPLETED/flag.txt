@@ -1,0 +1,1 @@
+raziCTF{your_fl4g_is_this_cute_flag}
