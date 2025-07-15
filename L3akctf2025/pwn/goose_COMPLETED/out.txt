@@ -1,0 +1,779 @@
+[*] '/home/austindrane/ctf/L3akctf/pwn/goose/chall'
+    Arch:       amd64-64-little
+    RELRO:      Partial RELRO
+    Stack:      No canary found
+    NX:         NX unknown - GNU_STACK missing
+    PIE:        PIE enabled
+    Stack:      Executable
+    RWX:        Has RWX segments
+    Stripped:   No
+[*] Loaded 5 cached gadgets for './chall'
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25361
+0
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_%0$p you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25361)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25362
+1
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7ffd85da4246 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25362)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25363
+2
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25363)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25364
+3
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25364)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25365
+4
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25365)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25366
+5
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25366)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25367
+6
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x2020202020202020 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25367)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25368
+7
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x2020202020202020 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25368)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25369
+8
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x2f20202020202020 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25369)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25370
+9
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0xa0a20272e2f272e you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25370)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25371
+10
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x6c6c6568206f730a you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25371)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25372
+11
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25372)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25373
+12
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fffa2d75f50 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25373)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25374
+13
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7f39d186d024 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25374)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25375
+14
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25375)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25376
+15
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25376)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25377
+16
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffe52acfc70 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25377)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25378
+17
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fbed2e010ae you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25378)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25379
+18
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25379)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25380
+19
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x5613173bfdd8 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25380)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25381
+20
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffec76499d0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25381)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25382
+21
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7f72eed18a75 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25382)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25383
+22
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x4141414120776f77 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25383)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25384
+23
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x792070243332255f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25384)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25385
+24
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x6f7320657227756f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25385)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25386
+25
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x77202e646f6f6720 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25386)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25387
+26
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7373656d20746168 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25387)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25388
+27
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x6c756f7720656761 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25388)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25389
+28
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x696c20756f792064 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25389)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25390
+29
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x656c206f7420656b you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25390)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25391
+30
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x74206f7420657661 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25391)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25392
+31
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x646c726f77206568 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25392)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25393
+32
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffd373d003f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25393)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25394
+33
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7f98230f5ac1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25394)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25395
+34
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffd3b33ca90 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25395)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25396
+35
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25396)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25397
+36
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fff49c6c770 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25397)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25398
+37
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7efcfe5adfe0 you're so good. what message would you like to leave to the world?"
+[*] Process './chall' stopped with exit code 0 (pid 25398)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25399
+38
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x3833255f41414141 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25399)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25400
+39
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7024 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25400)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25401
+40
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7fc99a8205c0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25401)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25402
+41
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7f5acdef05c0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25402)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25403
+42
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7920732520776f77 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25403)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25404
+43
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x6f7320657227756f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25404)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25405
+44
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x77202e646f6f6720 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25405)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25406
+45
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7373656d20746168 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25406)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25407
+46
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x6c756f7720656761 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25407)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25408
+47
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x696c20756f792064 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25408)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25409
+48
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x656c206f7420656b you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25409)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25410
+49
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x74206f7420657661 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25410)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25411
+50
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x646c726f77206568 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25411)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25412
+51
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x270000003f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25412)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25413
+52
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffc511bba10 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25413)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25414
+53
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x558af21f3481 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25414)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25415
+54
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fff883ee858 you're so good. what message would you like to leave to the world?"
+[*] Process './chall' stopped with exit code 0 (pid 25415)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25416
+55
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x10e12c9a0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25416)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25417
+56
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fffe6618310 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25417)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25418
+57
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7f8a490326b5 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25418)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25419
+58
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7f82590f6000 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25419)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25420
+59
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffd85383828 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25420)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25421
+60
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x13bee7900 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25421)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25422
+61
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x55a9d4e463f2 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25422)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25423
+62
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25423)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25424
+63
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x3f4e65e7ff6346fe you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25424)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25425
+64
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7ffc9abed1a8 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25425)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25426
+65
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25426)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25427
+66
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7f2892189000 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25427)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25428
+67
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x558f47cdadd8 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25428)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25429
+68
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0xc06a6d4a1756562f you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25429)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25430
+69
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x849e909bf7610054 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25430)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25431
+70
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7ffd00000000 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25431)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25432
+71
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25432)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25433
+72
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25433)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25434
+73
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25434)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25435
+74
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fffaa258648 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25435)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25436
+75
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0xc543d7d8b289b700 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25436)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25437
+76
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffcfea59e50 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25437)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25438
+77
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7ff5d853f769 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25438)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25439
+78
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffd70316498 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25439)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25440
+79
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x55b3ed41bdd8 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25440)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25441
+80
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x55e6448953f2 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25441)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25442
+81
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fff175b7448 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25442)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25443
+82
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25443)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25444
+83
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25444)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25445
+84
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x556ce824b0e0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25445)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25446
+85
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffee5c368a0 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25446)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25447
+86
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25447)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25448
+87
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25448)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25449
+88
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25449)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25450
+89
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x559c5b16a101 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25450)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25451
+90
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffe4c63e828 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25451)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25452
+91
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x38 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25452)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25453
+92
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x1 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25453)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25454
+93
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffc8654f488 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25454)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25455
+94
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_(nil) you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25455)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25456
+95
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7fffef7ba490 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25456)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25457
+96
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+what's your name again?
+b"wow AAAA_0x7ffc62ad64a4 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25457)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25458
+97
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK \nwhat's your name again?wow AAAA_0x7ffcb98f4538 you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25458)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25459
+98
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7fff76ac354c you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25459)
+[x] Starting local process './chall'
+[+] Starting local process './chall': pid 25460
+99
+
+ HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK 
+b" HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK  HONK \nwhat's your name again?wow AAAA_0x7ffc344b655d you're so good. what message would you like to leave to the world?"
+[*] Stopped process './chall' (pid 25460)
