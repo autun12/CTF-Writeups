@@ -1,0 +1,235 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_whv10"]
+
+[resource]
+script = ExtResource("1_whv10")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("ESTRAGON", "YOU")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "ESTRAGON",
+&"id": "1",
+&"next_id": "2",
+&"text": "Nothing to be done.",
+&"type": "dialogue"
+},
+"10": {
+&"character": "YOU",
+&"id": "10",
+&"next_id": "11",
+&"text": "A ditch! Where?",
+&"type": "dialogue"
+},
+"11": {
+&"character": "ESTRAGON",
+&"id": "11",
+&"next_id": "12",
+&"text": "Over there.",
+&"type": "dialogue"
+},
+"12": {
+&"character": "YOU",
+&"id": "12",
+&"next_id": "13",
+&"text": "And they didn't beat you?",
+&"type": "dialogue"
+},
+"13": {
+&"character": "ESTRAGON",
+&"id": "13",
+&"next_id": "14",
+&"text": "Beat me? Certainly they beat me.",
+&"type": "dialogue"
+},
+"14": {
+&"character": "YOU",
+&"id": "14",
+&"next_id": "15",
+&"text": "The same lot as usual?",
+&"type": "dialogue"
+},
+"15": {
+&"character": "ESTRAGON",
+&"id": "15",
+&"next_id": "16",
+&"text": "The same? I don't know.",
+&"type": "dialogue"
+},
+"16": {
+&"character": "YOU",
+&"id": "16",
+&"next_id": "17",
+&"text": "When I think of it . . . all these years . . . but for me . . . where would you be . . . You'd be nothing more than a little heap of bones at the present minute, no doubt about it.",
+&"type": "dialogue"
+},
+"17": {
+&"character": "ESTRAGON",
+&"id": "17",
+&"next_id": "18",
+&"text": "And what of it?",
+&"type": "dialogue"
+},
+"18": {
+&"character": "YOU",
+&"id": "18",
+&"next_id": "19",
+&"text": "It's too much for one man. On the other hand what's the good of losing heart now, that's what I say. We should have thought of it a million years ago, in the nineties.",
+&"type": "dialogue"
+},
+"19": {
+&"character": "ESTRAGON",
+&"id": "19",
+&"next_id": "20",
+&"text": "Ah stop blathering and help me off with this bloody thing.",
+&"type": "dialogue"
+},
+"2": {
+&"character": "YOU",
+&"id": "2",
+&"next_id": "3",
+&"text": "I'm beginning to come round to that opinion. All my life I've tried to put it from me, saying Vladimir, be reasonable, you haven't yet tried everything. And I resumed the struggle. So there you are again.",
+&"type": "dialogue"
+},
+"20": {
+&"character": "YOU",
+&"id": "20",
+&"next_id": "21",
+&"text": "...",
+&"type": "dialogue"
+},
+"21": {
+&"character": "ESTRAGON",
+&"id": "21",
+&"next_id": "22",
+&"text": "...",
+&"type": "dialogue"
+},
+"22": {
+&"character": "ESTRAGON",
+&"id": "22",
+&"next_id": "23",
+&"text": "Charming spot. Inspiring prospects. Let's go.",
+&"type": "dialogue"
+},
+"23": {
+&"character": "YOU",
+&"id": "23",
+&"next_id": "24",
+&"text": "We can't.",
+&"type": "dialogue"
+},
+"24": {
+&"character": "ESTRAGON",
+&"id": "24",
+&"next_id": "25",
+&"text": "Why not?",
+&"type": "dialogue"
+},
+"25": {
+&"character": "YOU",
+&"id": "25",
+&"next_id": "26",
+&"text": "We're waiting for Godot...",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"27": {
+&"id": "27",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"3": {
+&"character": "ESTRAGON",
+&"id": "3",
+&"next_id": "4",
+&"text": "Am I?",
+&"type": "dialogue"
+},
+"4": {
+&"character": "YOU",
+&"id": "4",
+&"next_id": "5",
+&"text": "I'm glad to see you back. I thought you were gone forever.",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"text": "ESTRAGON:Me too.",
+&"type": "dialogue"
+},
+"6": {
+&"character": "YOU",
+&"id": "6",
+&"next_id": "7",
+&"text": "Together again at last! We'll have to celebrate this. But how? Get up till I embrace you.",
+&"type": "dialogue"
+},
+"7": {
+&"character": "ESTRAGON",
+&"id": "7",
+&"next_id": "8",
+&"text": "Not now, not now.",
+&"type": "dialogue"
+},
+"8": {
+&"character": "YOU",
+&"id": "8",
+&"next_id": "9",
+&"text": "May one inquire where His Highness spent the night?",
+&"type": "dialogue"
+},
+"9": {
+&"character": "ESTRAGON",
+&"id": "9",
+&"next_id": "10",
+&"text": "In a ditch.",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+ESTRAGON: Nothing to be done.
+YOU: I'm beginning to come round to that opinion. All my life I've tried to put it from me, saying Vladimir, be reasonable, you haven't yet tried everything. And I resumed the struggle. So there you are again.
+ESTRAGON: Am I?
+YOU: I'm glad to see you back. I thought you were gone forever.
+ESTRAGON:Me too.
+YOU: Together again at last! We'll have to celebrate this. But how? Get up till I embrace you.
+ESTRAGON: Not now, not now.
+YOU: May one inquire where His Highness spent the night?
+ESTRAGON: In a ditch.
+YOU: A ditch! Where?
+ESTRAGON: Over there.
+YOU: And they didn't beat you?
+ESTRAGON: Beat me? Certainly they beat me.
+YOU: The same lot as usual?
+ESTRAGON: The same? I don't know.
+YOU: When I think of it . . . all these years . . . but for me . . . where would you be . . . You'd be nothing more than a little heap of bones at the present minute, no doubt about it.
+ESTRAGON: And what of it?
+YOU: It's too much for one man. On the other hand what's the good of losing heart now, that's what I say. We should have thought of it a million years ago, in the nineties.
+ESTRAGON: Ah stop blathering and help me off with this bloody thing.
+YOU: ...
+ESTRAGON: ...
+ESTRAGON: Charming spot. Inspiring prospects. Let's go.
+YOU: We can't.
+ESTRAGON: Why not?
+YOU: We're waiting for Godot...
+=> END"
+metadata/dialogue_manager_version = "3.6.2"

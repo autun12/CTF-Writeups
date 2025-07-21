@@ -1,0 +1,195 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_e744q"]
+
+[resource]
+script = ExtResource("1_e744q")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Strange man", "YOU", "LUCKY", "POZZO")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "Strange man",
+&"id": "1",
+&"next_id": "2",
+&"text": "On!",
+&"type": "dialogue"
+},
+"10": {
+&"character": "POZZO",
+&"id": "10",
+&"next_id": "11",
+&"text": "I am Pozzo!",
+&"type": "dialogue"
+},
+"11": {
+&"character": "POZZO",
+&"id": "11",
+&"next_id": "12",
+&"text": "...",
+&"type": "dialogue"
+},
+"12": {
+&"character": "POZZO",
+&"id": "12",
+&"next_id": "13",
+&"text": "Pozzo! Does that name mean nothing to you?",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"text": "...",
+&"type": "dialogue"
+},
+"14": {
+&"character": "POZZO",
+&"id": "14",
+&"next_id": "15",
+&"text": "I say does that name mean nothing to you?",
+&"type": "dialogue"
+},
+"15": {
+&"character": "YOU",
+&"id": "15",
+&"next_id": "16",
+&"text": "Bozzo . . . Bozzo . . .",
+&"type": "dialogue"
+},
+"16": {
+&"character": "POZZO",
+&"id": "16",
+&"next_id": "17",
+&"text": "PPPOZZZO!",
+&"type": "dialogue"
+},
+"17": {
+&"character": "YOU",
+&"id": "17",
+&"next_id": "18",
+&"text": "I'm not from these parts, Sir.",
+&"type": "dialogue"
+},
+"18": {
+&"character": "POZZO",
+&"id": "18",
+&"next_id": "19",
+&"text": "You are human beings none the less. (He puts on his glasses.) As far as one can see. Of the same species as Pozzo! Made in God's image!",
+&"type": "dialogue"
+},
+"19": {
+&"character": "POZZO",
+&"id": "19",
+&"next_id": "20",
+&"text": "On! (A crack of the whip. Pozzo appears. Lucky passes before you and the rope tautens. Pozzo jerks at it violently.) Back!",
+&"type": "dialogue"
+},
+"2": {
+&"character": "YOU",
+&"id": "2",
+&"next_id": "3",
+&"text": "Let me go! Stay where you are!",
+&"type": "dialogue"
+},
+"20": {
+&"character": "POZZO",
+&"id": "20",
+&"next_id": "21",
+&"text": "(Lucky falls with all his baggage). You turn towards him, half wishing half fearing to go to his assistance...",
+&"type": "dialogue"
+},
+"21": {
+&"id": "21",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"22": {
+&"id": "22",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"3": {
+&"character": "Strange man",
+&"id": "3",
+&"next_id": "4",
+&"text": "Be careful! He's wicked. With strangers.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "YOU",
+&"id": "4",
+&"next_id": "5",
+&"text": "Is that him?",
+&"type": "dialogue"
+},
+"5": {
+&"character": "Strange man",
+&"id": "5",
+&"next_id": "6",
+&"text": "Who?",
+&"type": "dialogue"
+},
+"6": {
+&"character": "YOU",
+&"id": "6",
+&"next_id": "7",
+&"text": "Godot?",
+&"type": "dialogue"
+},
+"7": {
+&"character": "LUCKY",
+&"id": "7",
+&"next_id": "8",
+&"text": "...?",
+&"type": "dialogue"
+},
+"8": {
+&"character": "POZZO",
+&"id": "8",
+&"next_id": "9",
+&"text": "I present myself: Pozzo.",
+&"type": "dialogue"
+},
+"9": {
+&"character": "YOU",
+&"id": "9",
+&"next_id": "10",
+&"text": "He said Godot?",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+Strange man: On!
+YOU: Let me go! Stay where you are!
+Strange man: Be careful! He's wicked. With strangers.
+YOU: Is that him?
+Strange man: Who?
+YOU: Godot?
+LUCKY: ...?
+POZZO: I present myself: Pozzo.
+YOU: He said Godot?
+POZZO: I am Pozzo! 
+POZZO: ...
+POZZO: Pozzo! Does that name mean nothing to you? 
+...
+POZZO: I say does that name mean nothing to you?
+YOU: Bozzo . . . Bozzo . . .
+POZZO: PPPOZZZO!
+YOU: I'm not from these parts, Sir.
+POZZO: You are human beings none the less. (He puts on his glasses.) As far as one can see. Of the same species as Pozzo! Made in God's image!
+POZZO: On! (A crack of the whip. Pozzo appears. Lucky passes before you and the rope tautens. Pozzo jerks at it violently.) Back!
+POZZO: (Lucky falls with all his baggage). You turn towards him, half wishing half fearing to go to his assistance...
+=> END"
+metadata/dialogue_manager_version = "3.6.2"

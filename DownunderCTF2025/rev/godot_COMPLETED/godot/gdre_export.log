@@ -1,0 +1,55 @@
+GDRE Tools v1.0.0-rc.2
+Arch Linux #1 SMP PREEMPT_DYNAMIC Thu, 10 Jul 2025 17:10:18 +0000, Mesa Intel(R) Graphics (MTL), opengl3
+Opening file: ~/ctf/downunderctf/rev/godot_re/godot/ductf_2025_godot_encrypted.pck
+Guessing bytecode revision from engine version: 4.4.1 (rev 0x77af6ca)
+Verified 111 files, no errors detected!
+Extracted 111 files, no errors detected!
+Recreating plugin configs...
+WARNING: Conversion for Resource of type Resource and format dialogue not implemented
+   at: report_unsupported_resource (modules/gdsdecomp/utility/import_exporter.cpp:802)
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     0
+Failed scripts:                         0
+Imported resources for export session:  35
+Successfully converted:                 32
+Lossy:                                  1
+Rewrote metadata:                       21
+Non-importable conversions:             0
+Not converted:                          3
+Failed conversions:                     0
+-------------
+
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.godot/imported/estragon.dialogue-6c116191f83e1cbd6ba75b492176634e.tres to res://dialgoue/estragon.dialogue
+res://.godot/imported/estragon_godot.dialogue-a64f828df2182bed8dfcd58bd9a9e505.tres to res://dialgoue/estragon_godot.dialogue
+res://.godot/imported/pozzo.dialogue-a12de4ebbf5a62e8c2eed7a109719436.tres to res://dialgoue/pozzo.dialogue
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Unsupported Resources Detected:
+The following resource types were detected in the project that conversion is not implemented for yet.
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+ - Resource Type: Resource, Format: dialogue (non-standard resource)
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.4.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

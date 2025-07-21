@@ -1,0 +1,14 @@
+res://addons/dialogue_manager/example_balloon/example_balloon.tscn
+res://addons/dialogue_manager/example_balloon/small_example_balloon.tscn
+res://addons/dialogue_manager/dialogue_label.tscn
+res://addons/dialogue_manager/test_scene.tscn
+res://src/deathgrass.tscn
+res://src/killzone.tscn
+res://src/player.tscn
+res://src/pozzo.tscn
+res://src/shop.tscn
+res://src/tile_map_layer.tscn
+res://src/universe.tscn
+res://src/player.gd
+res://src/killzone.gd
+res://src/tile_map_layer.gd

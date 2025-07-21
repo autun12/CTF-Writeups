@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_v7qrw"]
+
+[resource]
+script = ExtResource("1_v7qrw")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("VLADIMIR", "ESTRAGON")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "VLADIMIR",
+&"id": "1",
+&"next_id": "2",
+&"text": "Listen!",
+&"type": "dialogue"
+},
+"10": {
+&"character": "ESTRAGON",
+&"id": "10",
+&"next_id": "11",
+&"text": "And why would he shout?",
+&"type": "dialogue"
+},
+"11": {
+&"character": "VLADIMIR",
+&"id": "11",
+&"next_id": "12",
+&"text": "At his horse.",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"13": {
+&"id": "13",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"2": {
+&"character": "ESTRAGON",
+&"id": "2",
+&"next_id": "3",
+&"text": "I hear nothing.",
+&"type": "dialogue"
+},
+"3": {
+&"character": "VLADIMIR",
+&"id": "3",
+&"next_id": "4",
+&"text": "Hsst! ... Nor I.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "ESTRAGON",
+&"id": "4",
+&"next_id": "5",
+&"text": "You gave me a fright.",
+&"type": "dialogue"
+},
+"5": {
+&"character": "VLADIMIR",
+&"id": "5",
+&"next_id": "6",
+&"text": "I thought it was he.",
+&"type": "dialogue"
+},
+"6": {
+&"character": "ESTRAGON",
+&"id": "6",
+&"next_id": "7",
+&"text": "Who?",
+&"type": "dialogue"
+},
+"7": {
+&"character": "VLADIMIR",
+&"id": "7",
+&"next_id": "8",
+&"text": "Godot.",
+&"type": "dialogue"
+},
+"8": {
+&"character": "ESTRAGON",
+&"id": "8",
+&"next_id": "9",
+&"text": "Pah! The wind in the reeds.",
+&"type": "dialogue"
+},
+"9": {
+&"character": "VLADIMIR",
+&"id": "9",
+&"next_id": "10",
+&"text": "I could have sworn I heard shouts.",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+VLADIMIR: Listen!
+ESTRAGON: I hear nothing.
+VLADIMIR: Hsst! ... Nor I.
+ESTRAGON: You gave me a fright.
+VLADIMIR: I thought it was he.
+ESTRAGON: Who?
+VLADIMIR: Godot.
+ESTRAGON: Pah! The wind in the reeds.
+VLADIMIR: I could have sworn I heard shouts.
+ESTRAGON: And why would he shout?
+VLADIMIR: At his horse.
+=> END"
+metadata/dialogue_manager_version = "3.6.2"
