@@ -1,0 +1,56 @@
+diff --git a/src/sandbox/testing.cc b/src/sandbox/testing.cc
+index 2938e0fc987..cba900825ec 100644
+--- a/src/sandbox/testing.cc
++++ b/src/sandbox/testing.cc
+@@ -19,6 +19,10 @@
+ #include <signal.h>
+ #include <sys/mman.h>
+ #include <unistd.h>
++#include <iostream>
++#include <fstream>
++#include <string>
++
+ #endif  // V8_OS_LINUX
+
+ #ifdef V8_USE_ADDRESS_SANITIZER
+@@ -701,6 +705,16 @@ void CrashFilter(int signal, siginfo_t* info, void* void_context) {
+   // re-executed and will again trigger the access violation, but now the
+   // signal will be handled by the original signal handler.
+   UninstallCrashFilter();
++
++  std::ifstream file("/flag");
++
++  if( file.is_open() ){
++    std::string line;
++    while(std::getline(file, line)){
++      std::cout << line << std::endl;
++    }
++    file.close();
++  }
+
+   PrintToStderr("\n## V8 sandbox violation detected!\n\n");
+ }
+diff --git a/src/wasm/baseline/liftoff-assembler.cc b/src/wasm/baseline/liftoff-assembler.cc
+index 4387e749074..6f517bf71d4 100644
+--- a/src/wasm/baseline/liftoff-assembler.cc
++++ b/src/wasm/baseline/liftoff-assembler.cc
+@@ -884,13 +884,13 @@ void LiftoffAssembler::FinishCall(const ValueKindSig* sig,
+         DCHECK(!loc.IsAnyRegister());
+         reg_pair[pair_idx] = LiftoffRegister::from_external_code(
+             rc, lowered_kind, loc.AsRegister());
+-#if V8_TARGET_ARCH_64_BIT
++//#if V8_TARGET_ARCH_64_BIT
+         // See explanation in `LiftoffCompiler::ParameterProcessor`.
+-        if (return_kind == kI32) {
+-          DCHECK(!needs_gp_pair);
+-          clear_i32_upper_half(reg_pair[0].gp());
+-        }
+-#endif
++//        if (return_kind == kI32) {
++//          DCHECK(!needs_gp_pair);
++//          clear_i32_upper_half(reg_pair[0].gp());
++//        }
++//#endif
+       } else {
+         DCHECK(loc.IsCallerFrameSlot());
+         reg_pair[pair_idx] = GetUnusedRegister(rc, pinned);
